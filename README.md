@@ -1,6 +1,6 @@
 [![HitCount](http://hits.dwyl.io/susantabiswas/image-summarizer.svg)](http://hits.dwyl.io/susantabiswas/image-summarizer)
-# Image Summarization
-Image summary generation or caption generation for images using CNN-LSTM network. The model used ![MSCOCO](http://cocodataset.org/#home) dataset for training the model. The entire implementation is done in Keras.
+# Image Captioning
+Image caption generation for images using CNN-LSTM network. The model used ![MSCOCO](http://cocodataset.org/#home) dataset for training the model. The entire implementation is done in Keras.
 
 ### Model Performance on Test Images:
 The model was trained for 22 epochs. The results are quite convincing.
@@ -18,6 +18,4 @@ The model was trained for 22 epochs. The results are quite convincing.
 
 #### References:
 MSCOCO dataset was downloaded from ![here](http://cocodataset.org/#home).<br>
-Sparse entropy loss function bug fix from ![here](https://github.com/Hvass-Labs/TensorFlow-Tutorials/blob/master/22_Image_Captioning.ipynb)
-
 
